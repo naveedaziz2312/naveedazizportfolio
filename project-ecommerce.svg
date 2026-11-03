@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecomBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111c38"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#ecomBg)"/>
+
+  <!-- Browser Window -->
+  <rect x="25" y="25" width="550" height="330" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="25" y="25" width="550" height="38" rx="16" fill="#1e293b"/>
+  <circle cx="48" cy="44" r="5" fill="#ef4444"/>
+  <circle cx="65" cy="44" r="5" fill="#eab308"/>
+  <circle cx="82" cy="44" r="5" fill="#22c55e"/>
+
+  <rect x="110" y="33" width="370" height="22" rx="6" fill="#0b0f19"/>
+  <text x="125" y="48" fill="#94a3b8" font-family="monospace" font-size="11">https://shopnest-store.com/admin/inventory</text>
+
+  <!-- Store Header -->
+  <rect x="45" y="75" width="510" height="40" rx="8" fill="#1e293b"/>
+  <text x="60" y="100" fill="#a855f7" font-family="sans-serif" font-weight="900" font-size="15">🛍️ SHOPNEST PRO</text>
+  <rect x="220" y="83" width="180" height="24" rx="6" fill="#0f172a"/>
+  <text x="235" y="99" fill="#64748b" font-family="sans-serif" font-size="10">🔍 Search 2,400+ Products...</text>
+  <rect x="450" y="83" width="90" height="24" rx="6" fill="url(#purpleGrad)"/>
+  <text x="495" y="99" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Cart (3)</text>
+
+  <!-- Products Grid Showcase -->
+  <!-- Card 1 -->
+  <g transform="translate(45, 130)">
+    <rect width="115" height="135" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="95" height="60" rx="6" fill="#0f172a"/>
+    <text x="57" y="45" font-size="24" text-anchor="middle">👟</text>
+    <text x="12" y="88" fill="#f8fafc" font-family="sans-serif" font-size="10" font-weight="bold">Air Sneakers</text>
+    <text x="12" y="104" fill="#10b981" font-family="sans-serif" font-size="11" font-weight="bold">Rs. 4,500</text>
+    <rect x="10" y="112" width="95" height="16" rx="4" fill="#3b82f6"/>
+    <text x="57" y="123" fill="#ffffff" font-family="sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Add to Cart</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(175, 130)">
+    <rect width="115" height="135" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="95" height="60" rx="6" fill="#0f172a"/>
+    <text x="57" y="45" font-size="24" text-anchor="middle">⌚</text>
+    <text x="12" y="88" fill="#f8fafc" font-family="sans-serif" font-size="10" font-weight="bold">Smart Watch</text>
+    <text x="12" y="104" fill="#10b981" font-family="sans-serif" font-size="11" font-weight="bold">Rs. 3,200</text>
+    <rect x="10" y="112" width="95" height="16" rx="4" fill="#3b82f6"/>
+    <text x="57" y="123" fill="#ffffff" font-family="sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Add to Cart</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(305, 130)">
+    <rect width="115" height="135" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="95" height="60" rx="6" fill="#0f172a"/>
+    <text x="57" y="45" font-size="24" text-anchor="middle">🎧</text>
+    <text x="12" y="88" fill="#f8fafc" font-family="sans-serif" font-size="10" font-weight="bold">Wireless Audio</text>
+    <text x="12" y="104" fill="#10b981" font-family="sans-serif" font-size="11" font-weight="bold">Rs. 2,800</text>
+    <rect x="10" y="112" width="95" height="16" rx="4" fill="#3b82f6"/>
+    <text x="57" y="123" fill="#ffffff" font-family="sans-serif" font-size="8" font-weight="bold" text-anchor="middle">Add to Cart</text>
+  </g>
+
+  <!-- Admin Quick Actions Panel on Right -->
+  <g transform="translate(435, 130)">
+    <rect width="120" height="135" rx="8" fill="#111827" stroke="#8b5cf6" stroke-width="1.5"/>
+    <rect width="120" height="22" rx="8" fill="#1e1b4b"/>
+    <text x="60" y="15" fill="#c084fc" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">ADMIN CONTROLS</text>
+    
+    <text x="10" y="38" fill="#94a3b8" font-family="sans-serif" font-size="8">Stock Status:</text>
+    <text x="10" y="52" fill="#22c55e" font-family="sans-serif" font-size="10" font-weight="bold">● In Stock (98%)</text>
+    
+    <text x="10" y="70" fill="#94a3b8" font-family="sans-serif" font-size="8">Payment Gateway:</text>
+    <text x="10" y="84" fill="#38bdf8" font-family="sans-serif" font-size="9" font-weight="bold">JazzCash / EasyPaisa</text>
+
+    <rect x="10" y="98" width="100" height="24" rx="4" fill="#8b5cf6"/>
+    <text x="60" y="114" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">+ Add Product</text>
+  </g>
+
+  <!-- Bottom Analytics Strip -->
+  <rect x="45" y="280" width="510" height="60" rx="8" fill="#1e293b"/>
+  <text x="65" y="305" fill="#94a3b8" font-family="sans-serif" font-size="10">Monthly Sales</text>
+  <text x="65" y="325" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold">PKR 1,420,000</text>
+
+  <text x="210" y="305" fill="#94a3b8" font-family="sans-serif" font-size="10">Customer Orders</text>
+  <text x="210" y="325" fill="#10b981" font-family="sans-serif" font-size="16" font-weight="bold">1,840 Completed</text>
+
+  <text x="365" y="305" fill="#94a3b8" font-family="sans-serif" font-size="10">Automated WhatsApp Alerts</text>
+  <text x="365" y="325" fill="#f59e0b" font-family="sans-serif" font-size="16" font-weight="bold">Active 🟢</text>
+</svg>

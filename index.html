@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafiz Naveed Aziz | Website & App Developer | Modern Business Solutions</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Official portfolio of Hafiz Naveed Aziz - Professional Website & App Developer specializing in restaurant websites, e-commerce stores, school/academy portals, hotel websites, and Flutter mobile apps with custom admin panels. Contact: 03013986828.">
+  <meta name="keywords" content="Hafiz Naveed Aziz, Website Developer, Mobile App Developer, Restaurant Website, E-commerce Store, Academy Portal, Hotel Website, Flutter Developer, Admin Panel, 03013986828, Pakistan Web Developer">
+  <meta name="author" content="Hafiz Naveed Aziz">
+  
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="Hafiz Naveed Aziz - Website & App Developer">
+  <meta property="og:description" content="High-impact websites and mobile apps with admin panels for restaurants, e-commerce, schools & local businesses. Contact: 03013986828">
+  <meta property="og:image" content="assets/images/profile-avatar.svg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6.5.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Custom Glowing Cursor (Desktop Only) -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <!-- Ambient Animated Background Particles & Glows -->
+  <canvas id="ambient-canvas"></canvas>
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-hero-right"></div>
+  <div class="ambient-glow glow-services"></div>
+  <div class="ambient-glow glow-bottom"></div>
+
+  <!-- ===================================================================
+       STICKY NAVBAR
+       =================================================================== -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-badge">&lt;HN /&gt;</span>
+        <div class="brand-text">
+          <span class="brand-name">Hafiz Naveed Aziz</span>
+          <span class="brand-title">Web &amp; App Developer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#why-me" class="nav-link">Why Me</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20am%20interested%20in%20discussing%20a%20website/app%20project." target="_blank" class="btn btn-whatsapp btn-sm" aria-label="Chat on WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>03013986828</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav" id="mobile-nav">
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link"><span>Home</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#about" class="mobile-nav-link"><span>About Me</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#services" class="mobile-nav-link"><span>Services</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#skills" class="mobile-nav-link"><span>My Skills</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#projects" class="mobile-nav-link"><span>Featured Projects</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#experience" class="mobile-nav-link"><span>Journey &amp; Experience</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#why-me" class="mobile-nav-link"><span>Why Work With Me</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#process" class="mobile-nav-link"><span>Development Process</span> <i class="fa-solid fa-angle-right"></i></a>
+      <a href="#contact" class="mobile-nav-link"><span>Contact Me</span> <i class="fa-solid fa-angle-right"></i></a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20would%20like%20to%20hire%20you%20for%20a%20project." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (03013986828)
+      </a>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       1. HERO SECTION
+       =================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Left Column -->
+        <div class="hero-content reveal-fade-up">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            <span>Available for New Projects &amp; Contracts</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Hi, I'm <br>
+            <span class="gradient-text">Hafiz Naveed Aziz</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span>Specialized In</span>
+            <span class="typewriter-wrapper" id="typewriter-text">Website &amp; App Developer</span>
+          </div>
+
+          <p class="hero-description">
+            Mein <strong>Restaurants, E-Commerce, Schools/Academies aur Local Businesses</strong> ke liye ultra-modern, professional aur 100% mobile-friendly websites aur apps tayar karta hu — take aap online customers hasil kar sakein aur apne business ko tezi se grow kar sakein. Har website me easy-to-use <strong>Admin Panel</strong> shaamil hota hai.
+          </p>
+
+          <!-- Core Specialization Tags -->
+          <div class="hero-highlights">
+            <span class="highlight-tag"><i class="fa-solid fa-utensils"></i> Restaurant Websites</span>
+            <span class="highlight-tag"><i class="fa-solid fa-cart-shopping"></i> E-Commerce Stores</span>
+            <span class="highlight-tag"><i class="fa-solid fa-graduation-cap"></i> School &amp; LMS Portals</span>
+            <span class="highlight-tag"><i class="fa-solid fa-hotel"></i> Hotel &amp; Business Sites</span>
+            <span class="highlight-tag"><i class="fa-solid fa-mobile-screen"></i> Flutter Mobile Apps</span>
+            <span class="highlight-tag"><i class="fa-solid fa-sliders"></i> Custom Admin Panels</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary btn-glow-pulse">
+              <i class="fa-solid fa-layer-group"></i> Explore My Work
+            </a>
+            <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20want%20to%20discuss%20a%20website/app%20project." target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Social Media & Direct Contact Icons -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <div class="social-links">
+              <a href="https://wa.me/923013986828" target="_blank" class="social-btn whatsapp-icon" aria-label="WhatsApp" title="WhatsApp 03013986828">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="tel:03013986828" class="social-btn" aria-label="Call Direct" title="Call 03013986828">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              <a href="mailto:contact.hafiznaveedaziz@gmail.com" class="social-btn" aria-label="Email" title="Send Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="social-btn" aria-label="GitHub Profile" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-btn" aria-label="Instagram Profile" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Avatar & Floating Tech Badges) -->
+        <div class="hero-visual reveal-fade-up delay-200">
+          <div class="avatar-frame">
+            <div class="avatar-img-wrapper">
+              <img src="assets/images/profile-avatar.svg" alt="Hafiz Naveed Aziz - Website and App Developer" width="420" height="420">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-tech-badge badge-top-right">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <span>Flutter &amp; Dart</span>
+            </div>
+
+            <div class="floating-tech-badge badge-mid-right">
+              <i class="fa-solid fa-database"></i>
+              <span>Supabase / Firebase</span>
+            </div>
+
+            <div class="floating-tech-badge badge-bottom-left">
+              <i class="fa-brands fa-js"></i>
+              <span>Full-Stack Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Statistics Strip -->
+      <div class="hero-stats-strip reveal-fade-up delay-300">
+        <div class="stat-item">
+          <div class="stat-number gradient-text">100%</div>
+          <div class="stat-label">Mobile-Friendly &amp; Responsive</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number gradient-text-cyan">Admin</div>
+          <div class="stat-label">Custom Admin Panel Included</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number gradient-text">90+</div>
+          <div class="stat-label">PageSpeed &amp; SEO Optimized</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number gradient-text-cyan">24/7</div>
+          <div class="stat-label">Dedicated Client WhatsApp Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       2. ABOUT ME SECTION
+       =================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-user-astronaut"></i> Discover My Story</span>
+        <h2 class="section-title">About <span class="gradient-text">Hafiz Naveed Aziz</span></h2>
+        <p class="section-subtitle">Passionate developer focused on building digital solutions that generate real revenue for businesses.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Profile Info Card -->
+        <div class="about-card-wrapper reveal-slide-left">
+          <div class="about-profile-card">
+            <div class="about-avatar">
+              <img src="assets/images/profile-avatar.svg" alt="Hafiz Naveed Aziz Avatar">
+            </div>
+            <h3 class="about-name">Hafiz Naveed Aziz</h3>
+            <p class="about-role">Website &amp; App Developer</p>
+
+            <div class="about-quick-info">
+              <div class="info-row">
+                <i class="fa-solid fa-phone"></i>
+                <span class="info-label">Phone:</span>
+                <span class="info-val">03013986828</span>
+              </div>
+              <div class="info-row">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span class="info-label">WhatsApp:</span>
+                <span class="info-val">+92 301 3986828</span>
+              </div>
+              <div class="info-row">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="info-label">Location:</span>
+                <span class="info-val">Pakistan (Remote Worldwide)</span>
+              </div>
+              <div class="info-row">
+                <i class="fa-solid fa-code-branch"></i>
+                <span class="info-label">Specialty:</span>
+                <span class="info-val">Business Sites &amp; Mobile Apps</span>
+              </div>
+              <div class="info-row">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="info-label">Delivery:</span>
+                <span class="info-val">Clean Code + Admin Access</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem;">
+              <button class="btn btn-primary btn-sm btn-download-cv" style="flex: 1;">
+                <i class="fa-solid fa-download"></i> Download CV
+              </button>
+              <a href="https://wa.me/923013986828" target="_blank" class="btn btn-whatsapp btn-sm" style="flex: 1;">
+                <i class="fa-brands fa-whatsapp"></i> Chat Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Biography & Approach -->
+        <div class="about-content reveal-slide-right">
+          <h3>Crafting High-Conversion Digital Experiences For Local &amp; Growing Businesses</h3>
+          <p>
+            Mera maqsad sirf aik khubsurat website banana nahi, balkay aisa powerful digital tool tayar karna hai jo aap ke karobar (Restaurant, E-commerce Store, School/Academy, ya Hotel) ke liye <strong>rozana naye customers</strong> attract kare aur aap ki sales barhaye.
+          </p>
+          <p>
+            Main modern technologies jese <strong>HTML5, CSS3, JavaScript, Flutter, Dart, Supabase aur Firebase</strong> ka istemal karta hu. Meri banai gayi har website responsive hoti hai — jo Mobile, Tablet aur Desktop har screen par tezi se khulti hai. Sub se eham baat, har website ke sath aik aasan <strong>Admin Panel</strong> hota hai jahan se aap menu, products, bookings ya student records khud asani se tabdeel kar sakte hain.
+          </p>
+
+          <!-- 4 Core Approach Features -->
+          <div class="about-features-list">
+            <div class="about-feature-box">
+              <i class="fa-solid fa-bolt"></i>
+              <div>
+                <h4>Fast &amp; Conversion-Focused</h4>
+                <p>Designed to convert casual visitors into paying customers quickly.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-box">
+              <i class="fa-solid fa-lock"></i>
+              <div>
+                <h4>Custom Admin Panels</h4>
+                <p>Update products, food menus, prices, and bookings effortlessly.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-box">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <div>
+                <h4>100% Mobile-First UX</h4>
+                <p>Over 80% of your buyers use phones; your site will look flawless on all devices.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-box">
+              <i class="fa-solid fa-comments"></i>
+              <div>
+                <h4>WhatsApp Direct Orders</h4>
+                <p>Customers can order food or products directly to your WhatsApp in 1-click.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a href="#services" class="btn btn-primary">
+              <i class="fa-solid fa-briefcase"></i> Explore My Services
+            </a>
+            <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20want%20to%20discuss%20a%20custom%20website%20for%20my%20business." target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Discuss Your Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       3. MY SERVICES SECTION
+       =================================================================== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> What I Deliver</span>
+        <h2 class="section-title">Specialized <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">Tailored website and mobile app solutions built to accelerate your business revenue and customer reach.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Restaurant Websites (Primary Focus) -->
+        <div class="service-card featured-service reveal-fade-up">
+          <span class="service-tag">High Demand 🔥</span>
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h3 class="service-title">Restaurant Website Development</h3>
+            <p class="service-desc">
+              Modern online ordering website for restaurants, cafes, and bakeries. Includes interactive food menus, table reservation booking, 1-click WhatsApp order checkout, and Kitchen token admin.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Digital Menu with Categories &amp; Search</li>
+              <li><i class="fa-solid fa-check"></i> WhatsApp Direct Order Notification</li>
+              <li><i class="fa-solid fa-check"></i> Real-time Table Reservation System</li>
+              <li><i class="fa-solid fa-check"></i> Dedicated Kitchen / Owner Admin Panel</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20a%20Restaurant%20Website%20with%20Admin%20Panel." target="_blank" class="service-footer-link">
+            <span>Order Restaurant Website</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 2: E-Commerce Store -->
+        <div class="service-card featured-service reveal-fade-up delay-100">
+          <span class="service-tag">Popular 🛍️</span>
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <h3 class="service-title">E-Commerce Website Development</h3>
+            <p class="service-desc">
+              High-converting online shopping platforms for fashion, electronics, cosmetics, and retail businesses. Fast cart checkout, payment gateway integration, and stock inventory controls.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Dynamic Product Catalog &amp; Filters</li>
+              <li><i class="fa-solid fa-check"></i> JazzCash / EasyPaisa / COD Setup</li>
+              <li><i class="fa-solid fa-check"></i> Admin Stock &amp; Inventory Dashboard</li>
+              <li><i class="fa-solid fa-check"></i> Customer WhatsApp Order Confirmations</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20an%20E-Commerce%20Website%20with%20Admin%20Panel." target="_blank" class="service-footer-link">
+            <span>Order E-Commerce Store</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 3: School & Academy LMS -->
+        <div class="service-card reveal-fade-up delay-200">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3 class="service-title">School &amp; Academy LMS Portals</h3>
+            <p class="service-desc">
+              Complete digital infrastructure for coaching academies, private schools, colleges, and training centers. Online admissions, fee challan generation, and student records.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Online Admission &amp; Registration Form</li>
+              <li><i class="fa-solid fa-check"></i> Automated Fee Voucher / Challan PDF</li>
+              <li><i class="fa-solid fa-check"></i> Student Attendance &amp; Result Lookup</li>
+              <li><i class="fa-solid fa-check"></i> Multi-Role Admin &amp; Teacher Portal</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20a%20School/Academy%20Website%20with%20Admin%20Panel." target="_blank" class="service-footer-link">
+            <span>Order Academy Website</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 4: Hotel & Business Websites -->
+        <div class="service-card reveal-fade-up">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <h3 class="service-title">Hotel &amp; Business Websites</h3>
+            <p class="service-desc">
+              Premium showcase websites for hotels, guest houses, corporate firms, and service agencies. Room tours, Google Maps local SEO integration, and instant inquiry capture.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Room &amp; Suite Showcase with Rates</li>
+              <li><i class="fa-solid fa-check"></i> Online Booking Calendar Engine</li>
+              <li><i class="fa-solid fa-check"></i> Google Maps SEO for Top Local Ranking</li>
+              <li><i class="fa-solid fa-check"></i> Instant WhatsApp Customer Alerts</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20a%20Hotel/Business%20Website." target="_blank" class="service-footer-link">
+            <span>Order Hotel Website</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 5: Flutter Mobile Apps -->
+        <div class="service-card reveal-fade-up delay-100">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3 class="service-title">Mobile App Development (Flutter)</h3>
+            <p class="service-desc">
+              High-performance, 60fps native mobile apps for iOS and Android built with Flutter &amp; Dart. Clean architecture, offline database caching, and push notifications.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Single Codebase for Android &amp; iOS</li>
+              <li><i class="fa-solid fa-check"></i> Firebase &amp; Supabase Backend Integration</li>
+              <li><i class="fa-solid fa-check"></i> Push Notifications &amp; Live GPS Tracking</li>
+              <li><i class="fa-solid fa-check"></i> Smooth Modern UI &amp; Micro-animations</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20a%20Flutter%20Mobile%20App." target="_blank" class="service-footer-link">
+            <span>Order Mobile App</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 6: Custom Admin Panels -->
+        <div class="service-card reveal-fade-up delay-200">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <h3 class="service-title">Custom Admin Panels &amp; Dashboards</h3>
+            <p class="service-desc">
+              Gain full control over your business without technical knowledge. Add new items, update prices, view orders, manage users, and export reports in 1-click.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Intuitive, Easy-to-use Interface</li>
+              <li><i class="fa-solid fa-check"></i> Real-time Sales &amp; Order Analytics</li>
+              <li><i class="fa-solid fa-check"></i> Secure Authentication &amp; Permissions</li>
+              <li><i class="fa-solid fa-check"></i> Works on Mobile &amp; Desktop Browser</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20a%20Custom%20Admin%20Panel." target="_blank" class="service-footer-link">
+            <span>Order Admin Dashboard</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 7: UI/UX & Responsive Web Design -->
+        <div class="service-card reveal-fade-up">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3 class="service-title">UI/UX Design &amp; Responsive Layouts</h3>
+            <p class="service-desc">
+              Futuristic, glassmorphism-inspired designs tailored to your brand identity. Wireframing, interactive prototypes, and pixel-perfect implementation.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> High-Fidelity UI/UX Prototyping</li>
+              <li><i class="fa-solid fa-check"></i> Mobile, Tablet &amp; 4K Ultra-HD Support</li>
+              <li><i class="fa-solid fa-check"></i> Interactive Animations &amp; Micro-interactions</li>
+              <li><i class="fa-solid fa-check"></i> Brand Color Palette &amp; Typography Match</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20UI/UX%20Design%20services." target="_blank" class="service-footer-link">
+            <span>Discuss UI/UX Design</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Service 8: Website Maintenance & Speed -->
+        <div class="service-card reveal-fade-up delay-100">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-gauge-high"></i>
+            </div>
+            <h3 class="service-title">Speed Optimization &amp; Maintenance</h3>
+            <p class="service-desc">
+              Keep your website lightning fast, secure, and always online. Code minification, asset compression, database backups, bug fixes, and security patches.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> 90+ Google PageSpeed Score Guarantee</li>
+              <li><i class="fa-solid fa-check"></i> 24/7 Uptime Monitoring &amp; Bug Fixes</li>
+              <li><i class="fa-solid fa-check"></i> Free SSL Certificate &amp; HTTPS Setup</li>
+              <li><i class="fa-solid fa-check"></i> Scheduled Database &amp; Asset Backups</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20need%20Website%20Maintenance%20&%20Speed%20Optimization." target="_blank" class="service-footer-link">
+            <span>Speed Up My Website</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       4. MY SKILLS SECTION
+       =================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-microchip"></i> Technical Proficiency</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span> &amp; Tools</h2>
+        <p class="section-subtitle">A modern, scalable tech stack engineered for speed, responsiveness, and seamless user experiences.</p>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Category 1: Frontend & Web Technologies -->
+        <div class="skills-category-card reveal-slide-left">
+          <div class="category-header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Frontend &amp; Responsive Web</h3>
+          </div>
+
+          <div class="skill-list">
+            <!-- HTML5 -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-brands fa-html5" style="color: #e34f26;"></i>
+                  <span>HTML5 (Semantic &amp; SEO)</span>
+                </div>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="95%"></div>
+              </div>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i>
+                  <span>CSS3 / Animations / Glassmorphism</span>
+                </div>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="92%"></div>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+                  <span>Modern JavaScript (ES6+ &amp; DOM)</span>
+                </div>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="90%"></div>
+              </div>
+            </div>
+
+            <!-- Responsive Web Design -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-solid fa-mobile-screen" style="color: #38bdf8;"></i>
+                  <span>Responsive Mobile-First Design</span>
+                </div>
+                <span class="skill-pct">98%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="98%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Mobile Apps, Backend & Databases -->
+        <div class="skills-category-card reveal-slide-right">
+          <div class="category-header">
+            <i class="fa-solid fa-server"></i>
+            <span>Mobile Apps &amp; Backend Cloud</span>
+          </div>
+
+          <div class="skill-list">
+            <!-- Flutter & Dart -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-solid fa-cubes" style="color: #02569B;"></i>
+                  <span>Flutter &amp; Dart (Cross-Platform Apps)</span>
+                </div>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="88%"></div>
+              </div>
+            </div>
+
+            <!-- Supabase -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-solid fa-bolt" style="color: #3ecf8e;"></i>
+                  <span>Supabase (PostgreSQL &amp; Auth)</span>
+                </div>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="85%"></div>
+              </div>
+            </div>
+
+            <!-- Firebase -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-solid fa-fire" style="color: #ffca28;"></i>
+                  <span>Firebase (Firestore, Auth, FCM)</span>
+                </div>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="88%"></div>
+              </div>
+            </div>
+
+            <!-- Admin Panel Architecture -->
+            <div class="skill-item">
+              <div class="skill-info">
+                <div class="skill-name-group">
+                  <i class="fa-solid fa-table-columns" style="color: #a855f7;"></i>
+                  <span>Admin Panel Architecture &amp; REST APIs</span>
+                </div>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="92%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Tech Pills -->
+      <div style="margin-top: 2.5rem; text-align: center;" class="reveal-fade-up">
+        <h4 style="font-size: 0.95rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem;">
+          Tools, Frameworks &amp; Integrations
+        </h4>
+        <div class="skill-pills-grid" style="justify-content: center;">
+          <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
+          <span class="skill-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+          <span class="skill-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap 5</span>
+          <span class="skill-pill"><i class="fa-brands fa-figma"></i> Figma to Code</span>
+          <span class="skill-pill"><i class="fa-brands fa-whatsapp"></i> WhatsApp Business API</span>
+          <span class="skill-pill"><i class="fa-solid fa-credit-card"></i> Payment Gateways</span>
+          <span class="skill-pill"><i class="fa-solid fa-magnifying-glass"></i> Technical SEO</span>
+          <span class="skill-pill"><i class="fa-solid fa-shield-virus"></i> Web Security</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       5. MY PROJECTS SHOWCASE
+       =================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-folder-open"></i> Portfolio Showcase</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world business websites, ordering platforms, and mobile apps engineered with modern admin panels.</p>
+      </div>
+
+      <!-- Interactive Category Filter Tabs -->
+      <div class="project-filters reveal-fade-up">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="websites">Websites</button>
+        <button class="filter-btn" data-filter="apps">Mobile Apps</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX Designs</button>
+        <button class="filter-btn" data-filter="ai">AI Projects</button>
+      </div>
+
+      <!-- Projects Dynamic Grid (Rendered via js/projects-data.js & js/main.js) -->
+      <div class="projects-grid" id="projects-container">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       6. MY EXPERIENCE / JOURNEY TIMELINE
+       =================================================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-route"></i> Career Milestones</span>
+        <h2 class="section-title">My Journey &amp; <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">How I evolved from passion-driven coding to delivering revenue-generating platforms for businesses.</p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item reveal-fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Present • Continuous Growth</span>
+            <h3 class="timeline-title">Lead Website &amp; App Developer</h3>
+            <p class="timeline-sub">Freelance &amp; Contract Solutions</p>
+            <p class="timeline-desc">
+              Building comprehensive digital products for restaurants, retail e-commerce stores, educational academies, and hotels. Architecting custom admin control panels and integrating automated WhatsApp order workflows for maximum business efficiency.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item reveal-fade-up delay-100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Milestone 2</span>
+            <h3 class="timeline-title">Flutter &amp; Cross-Platform Mobile Mastery</h3>
+            <p class="timeline-sub">Android &amp; iOS Native Performance</p>
+            <p class="timeline-desc">
+              Mastered the Dart language and Flutter framework. Engineered cross-platform apps with real-time Firebase backend, geolocation tracking, state management, and seamless offline data caching.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item reveal-fade-up delay-200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Milestone 3</span>
+            <h3 class="timeline-title">Full-Stack Web Foundations &amp; Modern UI/UX</h3>
+            <p class="timeline-sub">HTML5, CSS3, JavaScript ES6+ &amp; Supabase</p>
+            <p class="timeline-desc">
+              Deep dive into responsive web architecture, glassmorphism, DOM optimization, REST APIs, and relational databases. Focused on crafting websites that score 90+ on Google PageSpeed metrics.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item reveal-fade-up delay-300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Milestone 4</span>
+            <h3 class="timeline-title">Business Growth &amp; Conversion Optimization</h3>
+            <p class="timeline-sub">User Experience &amp; WhatsApp Integration</p>
+            <p class="timeline-desc">
+              Studied consumer psychology and conversion rate optimization (CRO) for local businesses. Perfected frictionless ordering flows that enable buyers to complete transactions via WhatsApp in under 30 seconds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       7. WHY WORK WITH ME
+       =================================================================== -->
+  <section class="section" id="why-me">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-award"></i> The Advantage</span>
+        <h2 class="section-title">Why Work <span class="gradient-text">With Me</span></h2>
+        <p class="section-subtitle">Here is what sets my development approach apart from generic template builders.</p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Feature 1 -->
+        <div class="why-card reveal-fade-up">
+          <div class="why-icon"><i class="fa-solid fa-gem"></i></div>
+          <h3 class="why-title">Modern &amp; Unique Designs</h3>
+          <p class="why-desc">No boring or outdated templates. Every website is designed from scratch with futuristic glassmorphism, electric glows, and crisp typography that impresses visitors.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="why-card reveal-fade-up delay-100">
+          <div class="why-icon"><i class="fa-solid fa-mobile"></i></div>
+          <h3 class="why-title">100% Mobile &amp; Tablet Ready</h3>
+          <p class="why-desc">Over 85% of traffic in Pakistan and worldwide comes from mobile phones. Your site will function flawlessly across iPhones, Androids, iPads, and large screens.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="why-card reveal-fade-up delay-200">
+          <div class="why-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="why-title">Clean &amp; High-Speed Code</h3>
+          <p class="why-desc">Clean, optimized HTML, CSS, and JavaScript with no unnecessary bloat. Your pages will load in milliseconds, boosting your Google ranking and conversion rate.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="why-card reveal-fade-up">
+          <div class="why-icon"><i class="fa-solid fa-lock-open"></i></div>
+          <h3 class="why-title">Easy Admin Panel Included</h3>
+          <p class="why-desc">You won't need to pay a developer every time you change a price, add a dish, or update a course. The custom Admin Panel puts you in 100% control.</p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="why-card reveal-fade-up delay-100">
+          <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3 class="why-title">Reliable 24/7 Communication</h3>
+          <p class="why-desc">I am always reachable via direct phone and WhatsApp (03013986828). You get daily progress updates, live demo previews, and instant answers to your questions.</p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="why-card reveal-fade-up delay-200">
+          <div class="why-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+          <h3 class="why-title">Long-Term Post-Launch Support</h3>
+          <p class="why-desc">My relationship doesn't end on deployment day. I provide video walkthroughs, staff training, free bug fixes, and continuous technical advice as your business scales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       8. MY PROCESS
+       =================================================================== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-gears"></i> Proven Methodology</span>
+        <h2 class="section-title">My 5-Step <span class="gradient-text">Process</span></h2>
+        <p class="section-subtitle">From initial strategy to launch, here is how we will turn your vision into a successful digital platform.</p>
+      </div>
+
+      <div class="process-grid">
+        <!-- Step 1 -->
+        <div class="process-step-card reveal-fade-up">
+          <span class="step-number">01</span>
+          <div class="step-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3 class="step-title">Requirements &amp; Strategy</h3>
+          <p class="step-desc">We discuss your business model, target audience, competitors, and exact feature needs via WhatsApp or phone call.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="process-step-card reveal-fade-up delay-100">
+          <span class="step-number">02</span>
+          <div class="step-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <h3 class="step-title">Planning &amp; UI Design</h3>
+          <p class="step-desc">I create the visual structure, layout aesthetics, color schemes, and interactive prototypes tailored to your brand.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="process-step-card reveal-fade-up delay-200">
+          <span class="step-number">03</span>
+          <div class="step-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="step-title">Custom Development</h3>
+          <p class="step-desc">I code the website or mobile app using clean, modern standards and construct your dedicated Admin Dashboard.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-step-card reveal-fade-up delay-300">
+          <span class="step-number">04</span>
+          <div class="step-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+          <h3 class="step-title">Testing &amp; Speed QA</h3>
+          <p class="step-desc">Comprehensive testing across real mobile phones, tablets, and browsers, ensuring zero bugs and 90+ speed scores.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="process-step-card reveal-fade-up delay-400">
+          <span class="step-number">05</span>
+          <div class="step-icon"><i class="fa-solid fa-rocket"></i></div>
+          <h3 class="step-title">Final Launch &amp; Training</h3>
+          <p class="step-desc">We go live on your custom domain with SSL! I guide you on how to manage your Admin Panel and handle orders smoothly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       9. CLIENT TESTIMONIALS (Sample Placeholders)
+       =================================================================== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-comment-dots"></i> Client Experiences</span>
+        <h2 class="section-title">Client <span class="gradient-text">Feedback</span></h2>
+        <p class="section-subtitle">Real results delivered for restaurants, retail shops, academies, and entrepreneurs.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Review 1: Restaurant Owner -->
+        <div class="testimonial-card reveal-fade-up">
+          <div>
+            <span class="sample-notice-badge">Sample Review Template</span>
+            <div class="stars-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Hafiz Naveed Aziz developed our restaurant's online ordering website and Admin Panel. Our customers love ordering via WhatsApp, and our food delivery orders doubled in the first month! Highly recommended developer."
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div class="author-info">
+              <h4>Malik Restaurant &amp; Cafe</h4>
+              <p>Food &amp; Dining Business Owner</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: E-Commerce Store Owner -->
+        <div class="testimonial-card reveal-fade-up delay-100">
+          <div>
+            <span class="sample-notice-badge">Sample Review Template</span>
+            <div class="stars-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The e-commerce store Hafiz built for our clothing line is incredible. It's super fast on mobile, the Admin Panel makes managing stock easy, and the JazzCash payment setup works without any hassle."
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">ZA</div>
+            <div class="author-info">
+              <h4>Zainab Apparel Online</h4>
+              <p>E-Commerce Founder</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: Academy Director -->
+        <div class="testimonial-card reveal-fade-up delay-200">
+          <div>
+            <span class="sample-notice-badge">Sample Review Template</span>
+            <div class="stars-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "We needed an online admissions portal with fee challan generation for our academy students. Hafiz Naveed Aziz delivered the complete solution before deadline. His communication is exceptional."
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">AP</div>
+            <div class="author-info">
+              <h4>Apex Coaching Academy</h4>
+              <p>Managing Director</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <p style="font-size: 0.85rem; color: var(--text-dim);">
+          <i class="fa-solid fa-circle-info"></i> Client reviews are editable placeholders. You can replace them with your actual client feedback anytime!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       10. CONTACT ME SECTION
+       =================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-fade-up">
+        <span class="section-badge"><i class="fa-solid fa-paper-plane"></i> Let's Collaborate</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a website or mobile app idea? Send me a message or connect directly on WhatsApp for an instant consultation.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: Direct Contact Information Card -->
+        <div class="contact-info-card reveal-slide-left">
+          <div class="contact-header">
+            <h3>Let's Build Something Great Together</h3>
+            <p>Aap direct call, WhatsApp ya niche diye gaye contact form ke zariye rabta kar sakte hain. Main har inquiry ka jald az jald jawab deta hu.</p>
+          </div>
+
+          <div class="contact-methods">
+            <!-- Phone Call -->
+            <a href="tel:03013986828" class="contact-method-item">
+              <div class="method-icon phone-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="method-content">
+                <h4>Phone / Direct Call</h4>
+                <p>03013986828</p>
+              </div>
+            </a>
+
+            <!-- WhatsApp Direct -->
+            <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20am%20interested%20in%20discussing%20a%20website%20project." target="_blank" class="contact-method-item whatsapp-item">
+              <div class="method-icon wa-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="method-content">
+                <h4>WhatsApp (Instant Reply)</h4>
+                <p>+92 301 3986828</p>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:contact.hafiznaveedaziz@gmail.com" class="contact-method-item">
+              <div class="method-icon mail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="method-content">
+                <h4>Email Address</h4>
+                <p>contact.hafiznaveedaziz@gmail.com</p>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-method-item">
+              <div class="method-icon loc-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="method-content">
+                <h4>Location &amp; Availability</h4>
+                <p>Pakistan • Worldwide Remote Contracts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-strip">
+            <h4>Follow &amp; Connect On Socials</h4>
+            <div class="social-links">
+              <a href="https://wa.me/923013986828" target="_blank" class="social-btn whatsapp-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://github.com" target="_blank" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://instagram.com" target="_blank" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Working Contact Form -->
+        <div class="contact-form-card reveal-slide-right">
+          <h3>Send Me A Project Inquiry</h3>
+          <p>Fill in the form below to receive a custom project estimate within 24 hours.</p>
+
+          <form id="portfolio-contact-form">
+            <div class="form-row two-cols">
+              <div class="form-group">
+                <label for="contact-name">Your Full Name <span>*</span></label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Ahmed Khan" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Phone / WhatsApp <span>*</span></label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="e.g. 03001234567" required>
+              </div>
+            </div>
+
+            <div class="form-row two-cols">
+              <div class="form-group">
+                <label for="contact-email">Email Address (Optional)</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. ahmed@business.com">
+              </div>
+              <div class="form-group">
+                <label for="contact-service">Service Interested In <span>*</span></label>
+                <select id="contact-service" class="form-control" required>
+                  <option value="Restaurant Website Development">Restaurant Website &amp; Admin Panel</option>
+                  <option value="E-Commerce Website Development">E-Commerce Online Store</option>
+                  <option value="School & Academy LMS Portal">School &amp; Academy LMS Portal</option>
+                  <option value="Hotel & Business Website">Hotel &amp; Business Website</option>
+                  <option value="Mobile App (Flutter & Dart)">Flutter Mobile App (iOS / Android)</option>
+                  <option value="Custom Admin Panel">Custom Admin Panel &amp; Dashboard</option>
+                  <option value="UI/UX Redesign">Website Redesign &amp; Speed Optimization</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-budget">Estimated Budget Range</label>
+              <select id="contact-budget" class="form-control">
+                <option value="Standard Starter (PKR 25k - 50k)">Standard Starter (PKR 25k - 50k)</option>
+                <option value="Professional Business (PKR 50k - 100k)" selected>Professional Business (PKR 50k - 100k)</option>
+                <option value="Advanced / Custom App (PKR 100k+)">Advanced / Custom App (PKR 100k+)</option>
+                <option value="Flexible / To Be Discussed">Flexible / To Be Discussed</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Project Details &amp; Requirements <span>*</span></label>
+              <textarea id="contact-message" class="form-control" placeholder="Apne karobar ke baray me bataiye aur website me kya kya features chahte hain..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+              </button>
+              <button type="button" id="btn-send-whatsapp" class="btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       11. FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Footer Column 1: Brand Info -->
+        <div class="footer-brand">
+          <a href="#home" class="nav-brand">
+            <span class="brand-badge">&lt;HN /&gt;</span>
+            <div class="brand-text">
+              <span class="brand-name">Hafiz Naveed Aziz</span>
+              <span class="brand-title">Website &amp; App Developer</span>
+            </div>
+          </a>
+          <p>
+            Building high-impact, modern websites and cross-platform mobile apps with custom admin panels for restaurants, e-commerce stores, academies, and growing businesses.
+          </p>
+          <div class="social-links">
+            <a href="https://wa.me/923013986828" target="_blank" class="social-btn whatsapp-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:03013986828" class="social-btn" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://github.com" target="_blank" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Footer Column 2: Quick Links -->
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">My Services</a>
+            <a href="#skills">Skills &amp; Tech Stack</a>
+            <a href="#projects">Project Showcase</a>
+            <a href="#experience">Journey &amp; Milestones</a>
+            <a href="#contact">Contact &amp; Hire</a>
+          </div>
+        </div>
+
+        <!-- Footer Column 3: Specialized Solutions -->
+        <div>
+          <h4 class="footer-title">Business Solutions</h4>
+          <div class="footer-links">
+            <a href="https://wa.me/923013986828?text=Restaurant%20Website%20Inquiry" target="_blank">Restaurant Online Ordering</a>
+            <a href="https://wa.me/923013986828?text=E-Commerce%20Website%20Inquiry" target="_blank">E-Commerce Store &amp; Cart</a>
+            <a href="https://wa.me/923013986828?text=School/Academy%20Website%20Inquiry" target="_blank">School &amp; Academy LMS</a>
+            <a href="https://wa.me/923013986828?text=Hotel%20Website%20Inquiry" target="_blank">Hotel &amp; Resort Booking</a>
+            <a href="https://wa.me/923013986828?text=Flutter%20App%20Inquiry" target="_blank">Flutter iOS &amp; Android Apps</a>
+            <a href="https://wa.me/923013986828?text=Admin%20Panel%20Inquiry" target="_blank">Custom Admin Panels</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Strip -->
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2026 <strong>Hafiz Naveed Aziz</strong>. All rights reserved. Built with passion &amp; modern web standards.
+        </p>
+        <button id="back-to-top-btn" class="back-to-top" aria-label="Back to top">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       FLOATING WHATSAPP BUTTON (High-Conversion Floating Action)
+       =================================================================== -->
+  <div class="floating-whatsapp">
+    <div class="whatsapp-tooltip">
+      <span>● Online Now</span> • Chat with Hafiz Naveed
+    </div>
+    <a href="https://wa.me/923013986828?text=Assalam%20o%20Alaikum%20Hafiz%20Naveed%20Aziz,%20I%20am%20interested%20in%20building%20a%20website/app%20for%20my%20business." target="_blank" class="whatsapp-beacon" aria-label="Chat directly on WhatsApp (03013986828)">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- ===================================================================
+       UNIVERSAL MODAL (For Project Details, Live Demo & CV Preview)
+       =================================================================== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Preview Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modal-body-content">
+        <!-- Content injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
